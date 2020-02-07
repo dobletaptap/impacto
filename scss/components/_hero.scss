@@ -1,0 +1,21 @@
+.c-hero {
+    background: url('../img/background.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+        width: 500px;
+    }
+
+    &__text {
+        max-width: 960px;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+}
