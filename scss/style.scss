@@ -10,3 +10,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+//* SECTION UTILS
+@import './utils/wrapper';
+
+//* SECTION components
+@import './components/header';
