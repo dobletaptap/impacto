@@ -371,4 +371,31 @@ textarea {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.c-mission {
+  background: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 30px 0;
+  margin: 20px 0;
+}
+
+.c-mission__side {
+  width: 41%;
+}
+
+.c-mission__title {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+}
+
+.c-mission__description {
+  font-weight: 300;
+}
 /*# sourceMappingURL=style.css.map */

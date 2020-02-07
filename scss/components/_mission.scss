@@ -1,0 +1,22 @@
+.c-mission {
+    background: #F3F3F3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    margin: 20px 0;
+
+    &__side {
+        width: 41%;
+    }
+
+    &__title {
+        font-size: 2em;
+        text-align: center;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    &__description {
+        font-weight: 300;
+    }
+}
