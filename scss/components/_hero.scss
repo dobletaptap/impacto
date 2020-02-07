@@ -1,3 +1,5 @@
+$gray: #c4c4c4;
+
 .c-hero {
     background: url('../img/background.png');
     background-position: center;
@@ -17,5 +19,44 @@
         text-align: center;
         font-size: 1.2em;
         font-weight: 700;
+    }
+
+    &__form {
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+        width: 37%;
+    }
+
+    &__input {
+        background: rgba($gray, .8);
+        border: none;
+        padding: 16px 32px;
+        border-radius: 10px 0 0 10px;
+        outline: none;
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+
+        &::placeholder {
+            color: white;
+            font-weight: 700;
+        }
+
+        &:focus {
+            background: lighten($gray, 11%);
+        }
+    }
+
+    &__button {
+        background: $accent;
+        padding: 16px;
+        border: none;
+        border-radius: 0 10px 10px 0;
+        color: white;
+        outline: none;
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+        font-weight: 700;
+        
+        &:hover {
+            background: darken($accent, 3%);
+        }
     }
 }
