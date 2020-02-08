@@ -1,0 +1,22 @@
+.c-work {
+    background: $primary;
+    color: $white;
+    padding: 40px 0;
+    &__title {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    &__sides-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__side {
+        width: 45%;
+        height: 500px;
+        background: $white;
+        color: $primary;
+        border: 1px solid white;
+    }
+}

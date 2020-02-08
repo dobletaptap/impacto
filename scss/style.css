@@ -398,4 +398,32 @@ textarea {
 .c-mission__description {
   font-weight: 300;
 }
+
+.c-work {
+  background: #111D35;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.c-work__title {
+  font-size: 2em;
+  text-align: center;
+}
+
+.c-work__sides-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.c-work__side {
+  width: 45%;
+  height: 500px;
+  background: #fff;
+  color: #111D35;
+  border: 1px solid white;
+}
 /*# sourceMappingURL=style.css.map */
