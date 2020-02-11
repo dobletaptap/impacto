@@ -1,6 +1,8 @@
 $white: #fff;
 $primary: #111D35;
 $accent: #14B14B;
+$white-dark: #F3F3F3;
+$button: #E9E9E9;
 
 * {
     box-sizing: border-box;
@@ -15,6 +17,7 @@ body {
 //* SECTION UTILS
 @import './utils/wrapper';
 @import './utils/reset';
+@import './utils/icons';
 
 //* SECTION components
 @import './components/header';
