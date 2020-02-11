@@ -1,0 +1,24 @@
+.c-gallery {
+    width: 80%;
+    height: 80%;
+    position: relative;
+
+    &__image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &__button {
+        position: absolute;
+        top: 0;
+        &--right {
+            right: 0;
+        }
+
+        &--left {
+            left: 0;
+        }
+    }
+}
