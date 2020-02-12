@@ -434,6 +434,14 @@ textarea {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media screen and (max-width: 540px) {
+  .c-air {
+    height: 20vh;
+  }
 }
 
 .c-mission {
