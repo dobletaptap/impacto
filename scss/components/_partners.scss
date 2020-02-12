@@ -25,4 +25,11 @@
         max-width: 100%;
         max-height: 66px;
     }
+
+    // SECTION responsive
+    @include iphone-8 {
+        &__image-container {
+            grid-template-columns: 146px;
+        }
+    }
 }

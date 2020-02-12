@@ -642,6 +642,13 @@ textarea {
   max-height: 66px;
 }
 
+@media screen and (max-width: 540px) {
+  .c-partners__image-container {
+    -ms-grid-columns: 146px;
+        grid-template-columns: 146px;
+  }
+}
+
 .c-footer {
   background: #111D35;
   display: -webkit-box;
