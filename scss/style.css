@@ -324,6 +324,9 @@ textarea {
   -ms-grid-columns: 5fr 2fr;
       grid-template-columns: 5fr 2fr;
   width: 37%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .c-hero__input {
@@ -374,6 +377,16 @@ textarea {
 
 .c-hero__button:hover {
   background: #12a345;
+}
+
+@media screen and (max-width: 540px) {
+  .c-hero {
+    font-size: 12px;
+    min-height: 70vh;
+  }
+  .c-hero__image {
+    width: 90%;
+  }
 }
 
 .c-strategy {

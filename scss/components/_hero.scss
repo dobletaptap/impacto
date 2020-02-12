@@ -25,6 +25,7 @@ $gray: #c4c4c4;
         display: grid;
         grid-template-columns: 5fr 2fr;
         width: 37%;
+        justify-content: center;
     }
 
     &__input {
@@ -57,6 +58,14 @@ $gray: #c4c4c4;
         
         &:hover {
             background: darken($accent, 3%);
+        }
+    }
+
+    @include iphone-8 {
+        font-size: 12px;
+        min-height: 70vh;
+        &__image {
+            width: 90%;
         }
     }
 }
