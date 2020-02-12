@@ -20,4 +20,9 @@
         max-width: 70%;
         text-align: center;
     }
+    // SECTION responsive
+    @include iphone-8 {
+        font-size: 12px;
+        padding: 40px 0;
+    }
 }

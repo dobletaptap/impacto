@@ -60,7 +60,7 @@ $gray: #c4c4c4;
             background: darken($accent, 3%);
         }
     }
-
+    // SECTION Responsive
     @include iphone-8 {
         font-size: 12px;
         min-height: 70vh;
