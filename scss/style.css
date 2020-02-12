@@ -514,4 +514,38 @@ textarea {
 .c-gallery__arrow {
   margin: 0;
 }
+
+.c-partners {
+  background: #F3F3F3;
+  padding: 28px 0;
+  margin: 24px 0;
+}
+
+.c-partners__title {
+  color: #5a5a5a;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.c-partners__image-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (146px)[3];
+      grid-template-columns: repeat(3, 146px);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+
+.c-partners__image {
+  max-width: 100%;
+  max-height: 66px;
+}
 /*# sourceMappingURL=style.css.map */

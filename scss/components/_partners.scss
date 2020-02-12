@@ -1,0 +1,28 @@
+.c-partners {
+    background: $white-dark;
+    padding: 28px 0;
+    margin: 24px 0;
+    
+    &__title {
+        color: darken($white-dark, 60%);
+        font-weight: 300;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    &__image-container {
+        // border: 1px solid red;
+        display: grid;
+        grid-template-columns: repeat(3, 146px);
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    &__image {
+        max-width: 100%;
+        max-height: 66px;
+    }
+}
