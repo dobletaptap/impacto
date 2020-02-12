@@ -2,6 +2,7 @@ const $buttonRight = document.querySelector('#button-right')
 const $buttonLeft = document.querySelector('#button-left')
 const $galleryImage = document.querySelector('#gallery-image')
 const $workDescription = document.querySelector('.c-work__description')
+const $burgerButton = document.querySelector('#burger')
 
 const data = {
     images: ['work-1.jpg', 'work-2.jpg', 'work-3.jpg'],
@@ -69,5 +70,9 @@ $buttonRight.addEventListener('click', () => {
 $buttonLeft.addEventListener('click', () => {   
     changeImage('dec')
     changeDescription('dec')
+})
+
+$burgerButton.addEventListener('click', () => {
+    document.querySelector('.c-header').classList.toggle('c-header--active')
 })
 

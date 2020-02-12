@@ -1,4 +1,9 @@
 .c-header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
     display: flex;
     // justify-content: space-between;
     align-items: center;
@@ -50,6 +55,7 @@
         position: fixed;
         background: $primary;
         top: 0;
+        left: unset;
         width: 50vw;
         height: 100vh;
         right: -50vw;
