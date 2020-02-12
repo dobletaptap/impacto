@@ -3,6 +3,7 @@ const $buttonLeft = document.querySelector('#button-left')
 const $galleryImage = document.querySelector('#gallery-image')
 const $workDescription = document.querySelector('.c-work__description')
 const $burgerButton = document.querySelector('#burger')
+const $header = document.querySelector('.c-header')
 
 const data = {
     images: ['work-1.jpg', 'work-2.jpg', 'work-3.jpg'],
@@ -73,6 +74,12 @@ $buttonLeft.addEventListener('click', () => {
 })
 
 $burgerButton.addEventListener('click', () => {
-    document.querySelector('.c-header').classList.toggle('c-header--active')
+    $header.classList.toggle('c-header--active')
+})
+
+$header.addEventListener('click', event => {
+    if (event.target.classList.contains('c-header__link')) {
+        $header.classList.toggle('c-header--active')
+    }
 })
 
