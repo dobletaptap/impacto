@@ -2,6 +2,7 @@
     width: 80%;
     height: 80%;
     position: relative;
+    z-index: 1;
 
     &__image {
         height: 100%;
@@ -12,6 +13,7 @@
 
     &__button {
         position: absolute;
+        z-index: 1;
         top: 45%;
         height: 50px;
         width: 50px;
