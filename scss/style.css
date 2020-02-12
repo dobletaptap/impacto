@@ -663,6 +663,12 @@ textarea {
   margin: 0;
 }
 
+@media screen and (max-width: 540px) {
+  .c-gallery__button {
+    font-size: 24px;
+  }
+}
+
 .c-partners {
   background: #F3F3F3;
   padding: 28px 0;
