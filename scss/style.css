@@ -23,6 +23,10 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  -webkit-box-orient: inherit;
+  -webkit-box-direction: inherit;
+      -ms-flex-direction: inherit;
+          flex-direction: inherit;
 }
 
 /**
@@ -675,5 +679,23 @@ textarea {
 
 .c-footer__link:hover {
   color: #14B14B;
+}
+
+@media screen and (max-width: 540px) {
+  .c-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 15px 0;
+  }
+  .c-footer__image {
+    width: 150px;
+  }
+  .c-footer__link {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
