@@ -1,0 +1,20 @@
+.c-footer {
+    background: $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+    &__image {
+        width: 200px;
+    }
+
+    &__link {
+        color: $white;
+        text-decoration: none;
+        margin-left: 50px;
+        &:hover {
+            color: $accent;
+        }
+    }
+}
